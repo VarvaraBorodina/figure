@@ -1,0 +1,88 @@
+.figure {
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    box-sizing: border-box;
+}
+
+.figure__circle {
+    background-color:#ee220c;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+}
+
+.circle--top_left {
+    position: absolute;
+    top:20%;
+    left: 20%;
+    z-index: 1;
+}
+
+
+.circle--top_right {
+    position: absolute;
+    z-index: 1;
+    top:20%;
+    right: 20%;
+}
+
+.circle--bottom_left {
+    position: absolute;
+    z-index: 1;
+    bottom: 20%;
+    left: 20%;
+}
+
+.circle--bottom_right {
+    position: absolute;
+    z-index: 1;
+    bottom:20%;
+    right: 20%;
+}
+
+.circle--top_left:hover {
+    background-color: #f0ff00;
+    z-index: 4;
+}
+
+.circle--bottom_left:hover {
+    background-color: #4ce9b3;
+    z-index: 4;
+}
+
+.circle--bottom_right:hover {
+    background-color: #eeccb6;
+    z-index: 4;
+}
+
+.circle--top_right:hover {
+    background-color: #92f108;
+    z-index: 4;
+}
+
+.figure__square--big {
+    position: absolute;
+    z-index: 2;
+    top:30%;
+    left: 30%;
+    width: 40%;
+    height: 40%;
+    background-color: #00a2ff;
+}
+
+.figure__square-small{
+    position: absolute;
+    z-index: 3;
+    top:40%;
+    left: 40%;
+    width: 20%;
+    height: 20%;
+    background-color: #f8ba00;
+    border-radius: 20%;
+}
+
+.figure__square--big:hover {
+    background-color: #b9aaec;
+    z-index: 4;
+}
